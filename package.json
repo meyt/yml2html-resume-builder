@@ -1,0 +1,14 @@
+{
+	"name": "yml2html-resume-builder",
+    "version": "1.0.0",
+    "description": "A simple resume builder yaml > json > html",
+    "author": "meyt <pasd3000@gmail.com>",
+    "scripts": {
+        "build": "yaml2json resume.yml > resume.json && resume export --theme=flat resume.html"
+    },
+    "dependencies": {
+        "jsonresume-theme-paper": "^0.3.5",
+        "resume-cli": "^0.4.19",
+        "yamljs": "^0.3.0"
+    }
+}
